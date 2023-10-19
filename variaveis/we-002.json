@@ -1,0 +1,27 @@
+{
+    "Título da disciplina": "Programação em Python",
+    "Tópico da disciplina": "Variáveis em Python",
+    "Conhecimento prévio": "Noções básicas de programação são recomendadas.",
+    "Local onde foi retirado": "Material didático de um curso de Python",
+    "Descrição do problema": "Você foi designado para criar um programa Python que realiza cálculos simples. Crie um programa que armazene dois números em variáveis e calcule a soma e o produto desses números. Por fim, exiba os resultados na tela.",
+    "Resultado": "O programa deve calcular e exibir a soma e o produto dos números dados.",
+    "Material complementar": "Os alunos podem consultar a documentação oficial do Python para obter informações sobre a manipulação de variáveis e operações matemáticas.",
+
+    "Problema com worked Example Correto": {
+        "Reflexivo": "Neste exemplo correto, você aprenderá como usar variáveis para armazenar números e realizar cálculos simples em Python.",
+        "Proposta de solução": {
+            "Etapas de Solução": "[PASSO 1] Crie duas variáveis, 'num1' e 'num2', e atribua valores a elas. [PASSO 2] Calcule a soma e o produto desses números usando operadores matemáticos. [PASSO 3] Exiba os resultados na tela usando a função 'print()'.",
+            "Teste": "Execute o programa com diferentes valores para 'num1' e 'num2' e verifique se os resultados estão corretos."
+        },
+        "Solução Correta": "```python\nnum1 = 5\nnum2 = 3\nsoma = num1 + num2\nproduto = num1 * num2\nprint('Soma:', soma)\nprint('Produto:', produto)\n```"
+    },
+
+    "Problema com worked Example Incorreto": {
+        "Reflexivo": "No worked example incorreto, há erros que afetam o cálculo dos resultados.",
+        "Solução Incorreta": "```python\nnum1 = '2'\nnum2 = 4\nsoma = num1 + num2\nproduto = num1 * num2\nprint('Soma:', soma)\nprint('Produto:', produto)\n```",
+        "Teste": "Execute o programa com os valores fornecidos e verifique os resultados.",
+        "Você consegue identificar o erro?": "Qual é o erro no worked example incorreto?",
+        "Resposta": "O erro está na linha 'soma = num1 + num2' e 'produto = num1 * num2'. O valor 'num1' é uma string, não um número, e não pode ser somado ou multiplicado diretamente com 'num2'.",
+        "Proposta de solução correta": "[PASSO 1] Crie duas variáveis, 'num1' e 'num2', e atribua valores numéricos a elas. [PASSO 2] Calcule a soma e o produto desses números usando operadores matemáticos. [PASSO 3] Exiba os resultados na tela usando a função 'print()'."
+    }
+}

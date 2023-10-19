@@ -1,0 +1,27 @@
+{
+    "Título da disciplina": "Programação em Python",
+    "Tópico da disciplina": "Expressões Aritméticas em Python",
+    "Conhecimento prévio": "Noções básicas de programação são recomendadas.",
+    "Local onde foi retirado": "Material didático de um curso de Python",
+    "Descrição do problema": "Você foi designado para criar um programa Python que avalia uma expressão aritmética fornecida. O programa deve receber uma expressão do usuário, analisá-la e calcular o resultado da expressão, levando em consideração a precedência dos operadores. Em seguida, exiba o resultado na tela.",
+    "Resultado": "O programa deve calcular e exibir o resultado da expressão aritmética fornecida pelo usuário, considerando a precedência dos operadores.",
+    "Material complementar": "Os alunos podem consultar a documentação oficial do Python para obter informações sobre a precedência dos operadores em expressões aritméticas.",
+
+    "Problema com worked Example Correto": {
+        "Reflexivo": "Neste exemplo correto, você aprenderá como avaliar expressões aritméticas em Python sem o uso da função 'eval'. Em Python, a precedência dos operadores é importante, e parênteses podem ser usados para alterar a ordem das operações.",
+        "Proposta de solução": {
+            "Etapas de Solução": "[PASSO 1] Receba uma expressão aritmética do usuário usando a função 'input()'. [PASSO 2] Analise a expressão e calcule o resultado considerando a precedência dos operadores. [PASSO 3] Exiba o resultado na tela usando a função 'print()'.",
+            "Teste": "Execute o programa com diferentes expressões aritméticas, como '3 * (2 + 4) / 2', e verifique se os resultados estão corretos."
+        },
+        "Solução Correta": "```python\nexpressao = input('Digite a expressão aritmética: ')\nresultado = eval(expressao)\nprint('Resultado:', resultado)\n```"
+    },
+
+    "Problema com worked Example Incorreto": {
+        "Reflexivo": "No worked example incorreto, há erros que afetam o cálculo da expressão aritmética e a consideração da precedência dos operadores.",
+        "Solução Incorreta": "```python\nexpressao = '3 * 2 + 4 / 2'\nprint('Resultado:', expressao)\n```",
+        "Teste": "Execute o programa com a expressão fornecida e verifique o resultado.",
+        "Você consegue identificar o erro?": "Qual é o erro no worked example incorreto?",
+        "Resposta": "O erro está na linha 'print('Resultado:', expressao)'. O programa não considera a precedência dos operadores, resultando em um resultado incorreto.",
+        "Proposta de solução correta": "[PASSO 1] Receba uma expressão aritmética do usuário usando a função 'input()'. [PASSO 2] Analise a expressão e calcule o resultado considerando a precedência dos operadores. [PASSO 3] Exiba o resultado na tela usando a função 'print()'."
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "Título da disciplina": "Introdução à Programação em Python",
+    "Tópico da disciplina": "Constantes em Python",
+    "Conhecimento prévio": "Noções básicas de Python.",
+    "Local onde foi retirado": "Material didático personalizado",
+    "Descrição do problema": "Neste exercício, você aprenderá sobre constantes em Python. As constantes são valores que não podem ser alterados após a atribuição inicial. Vamos declarar uma constante para representar a velocidade da luz em metros por segundo e usá-la em um cálculo simples.",
+    "Resultado": "O objetivo deste exercício é que os alunos compreendam o conceito de constantes e saibam como usá-las em Python.",
+    "Material complementar": "Não aplicável.",
+
+    "Problema com Worked Example Correto": {
+        "Reflexivo": "As constantes são úteis para armazenar valores que não mudam. Por exemplo, a velocidade da luz é uma constante bem conhecida. Vamos declarar uma constante chamada 'VELOCIDADE_DA_LUZ' e usá-la em um cálculo simples.",
+        "Proposta de solução": {
+            "Etapas de Solução": "PASSO 1: Declare uma constante chamada 'VELOCIDADE_DA_LUZ' com o valor de 299792458. PASSO 2: Use a constante 'VELOCIDADE_DA_LUZ' para calcular a distância que a luz percorre em um segundo.",
+            "Teste": "Verifique se a distância calculada usando 'VELOCIDADE_DA_LUZ' é igual ao valor esperado."
+        },
+        "Solução Correta": "VELOCIDADE_DA_LUZ = 299792458\n# Calculando a distância que a luz percorre em um segundo\ndistancia = VELOCIDADE_DA_LUZ * 1\nprint('A luz percorre', distancia, 'metros em um segundo.')"
+    },
+
+    "Problema com Worked Example Incorreto": {
+        "Reflexivo": "Neste worked example incorreto, há um erro na declaração da constante e no cálculo. O objetivo é identificar e corrigir o erro.",
+        "Solução Incorreta":  "velocidade_luz = 299792458\n# Calculando a distância que a luz percorre em um segundo\ndistancia = velocidade_luz * 1\nprint('A luz percorre', distancia, 'metros em um segundo.')",
+        "Teste": "Verifique se a distância calculada usando 'velocidade_luz' está correta.",
+        "Você consegue identificar o erro?": "O erro está na declaração da constante, que deve ser 'VELOCIDADE_DA_LUZ', e na utilização de 'velocidade_luz' em vez de 'VELOCIDADE_DA_LUZ'.",
+        "Resposta": "O erro ocorre na declaração da constante, que deve ser feita como 'VELOCIDADE_DA_LUZ'. Além disso, 'velocidade_luz' deve ser substituída por 'VELOCIDADE_DA_LUZ' no cálculo.",
+        "Proposta de solução correta": "PASSO 1: Declare a constante corretamente como 'VELOCIDADE_DA_LUZ = 299792458'. PASSO 2: Use a constante 'VELOCIDADE_DA_LUZ' para calcular a distância que a luz percorre em um segundo."
+    }
+}

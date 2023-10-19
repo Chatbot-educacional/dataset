@@ -1,0 +1,27 @@
+{
+    "Título da disciplina": "Programação em Python",
+    "Tópico da disciplina": "Expressões Aritméticas em Python",
+    "Conhecimento prévio": "Noções básicas de programação são recomendadas.",
+    "Local onde foi retirado": "Material didático de um curso de Python",
+    "Descrição do problema": "Você foi designado para criar um programa Python que avalia uma expressão aritmética fornecida. O programa deve receber uma expressão do usuário, avaliá-la e exibir o resultado na tela.",
+    "Resultado": "O programa deve calcular e exibir o resultado da expressão aritmética fornecida pelo usuário.",
+    "Material complementar": "Os alunos podem consultar a documentação oficial do Python para obter informações sobre a avaliação de expressões aritméticas.",
+
+    "Problema com worked Example Correto": {
+        "Reflexivo": "Neste exemplo correto, você aprenderá como avaliar expressões aritméticas em Python. Expressões aritméticas podem conter operadores como +, -, *, /, e parênteses para definir a ordem das operações.",
+        "Proposta de solução": {
+            "Etapas de Solução": "[PASSO 1] Receba uma expressão aritmética do usuário usando a função 'input()'. [PASSO 2] Use a função 'eval()' para avaliar a expressão. [PASSO 3] Exiba o resultado na tela usando a função 'print()'.",
+            "Teste": "Execute o programa com diferentes expressões aritméticas, como '2 + 3 * (4 - 1)', e verifique se os resultados estão corretos."
+        },
+        "Solução Correta": "```python\expressao = input('Digite a expressão aritmética: ')\nresultado = eval(expressao)\nprint('Resultado:', resultado)\n```"
+    },
+
+    "Problema com worked Example Incorreto": {
+        "Reflexivo": "No worked example incorreto, há erros que afetam a avaliação da expressão aritmética.",
+        "Solução Incorreta": "```python\nexpressao = '2 + 3 * (4 - 1)'\nprint('Resultado:', expressao)\n```",
+        "Teste": "Execute o programa com a expressão fornecida e verifique o resultado.",
+        "Você consegue identificar o erro?": "Qual é o erro no worked example incorreto?",
+        "Resposta": "O erro está na linha 'print('Resultado:', expressao)'. Em vez de avaliar a expressão aritmética, o programa está simplesmente imprimindo a string da expressão.",
+        "Proposta de solução correta": "[PASSO 1] Receba uma expressão aritmética do usuário usando a função 'input()'. [PASSO 2] Use a função 'eval()' para avaliar a expressão. [PASSO 3] Exiba o resultado na tela usando a função 'print()'."
+    }
+}

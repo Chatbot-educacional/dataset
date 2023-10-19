@@ -1,0 +1,27 @@
+{
+    "Título da disciplina": "Introdução à Programação em Python",
+    "Tópico da disciplina": "Constantes em Python",
+    "Conhecimento prévio": "Conhecimento básico de Python e variáveis.",
+    "Local onde foi retirado": "Material didático personalizado",
+    "Descrição do problema": "Neste exercício, você aprenderá sobre o conceito de constantes em Python e como usá-las. Uma constante é um valor que não pode ser alterado após a atribuição inicial. Vamos declarar e usar algumas constantes.",
+    "Resultado": "O resultado esperado deste exercício é que os alunos compreendam o uso de constantes em Python.",
+    "Material complementar": "Não aplicável.",
+
+    "Problema com Worked Example Correto": {
+        "Reflexivo": "As constantes em Python são valores imutáveis que são usados para armazenar informações que não devem ser alteradas durante a execução do programa. Para declarar uma constante, você pode usar letras maiúsculas e sublinhados. Por exemplo, 'PI' pode ser uma constante para representar o valor de π. Você pode usá-la em cálculos matemáticos.",
+        "Proposta de solução": {
+            "Etapas de Solução": "PASSO 1: Declare uma constante chamada 'PI' e atribua o valor 3.14159. PASSO 2: Use a constante 'PI' em um cálculo matemático para encontrar a circunferência de um círculo.",
+            "Teste": "Verifique se a circunferência calculada usando 'PI' é igual ao valor esperado."
+        },
+        "Solução Correta": "PI = 3.14159\nraio = 5\n# Calculando a circunferência de um círculo\ncircunferencia = 2 * PI * raio\nprint('A circunferência é:', circunferencia)"
+    },
+
+    "Problema com Worked Example Incorreto": {
+        "Reflexivo": "Neste worked example incorreto, há um erro na declaração e no uso da constante. O objetivo é identificar e corrigir o erro.",
+        "Solução Incorreta":  "pi = 3.14159\nraio = 5\n# Calculando a circunferência de um círculo\ncircunferencia = 2 * pi * raio\nprint('A circunferência é:', circunferencia)",
+        "Teste": "Verifique se a circunferência calculada usando 'pi' está correta.",
+        "Você consegue identificar o erro?": "O erro está na declaração da constante 'pi', que deve ser declarada em letras maiúsculas como 'PI'.",
+        "Resposta": "O erro ocorre na declaração da constante 'pi'. As constantes em Python devem ser escritas em letras maiúsculas e sublinhados para seguir as convenções de nomenclatura. A declaração correta é 'PI = 3.14159'.",
+        "Proposta de solução correta": "PASSO 1: Declare a constante corretamente como 'PI = 3.14159'. PASSO 2: Use a constante 'PI' em cálculos matemáticos para encontrar a circunferência de um círculo."
+    }
+}
