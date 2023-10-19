@@ -1,0 +1,30 @@
+{
+    
+    "Título da disciplina": "Construção de Algoritmos",
+    "Tópico da disciplina": "Estruturas de decisão",
+    "Subtópicos": "Uso do comando if",
+    "Conhecimento prévio": "Variáveis",
+    "Local onde foi retirado": "Material didático - Aula Professor Renato - IFMS ",
+    "Descrição do problema": "Desenvolva um código para verificar se um número é impar ou par",
+    "Resultado": "para o valor 2, o resultado esperado é par",
+    "Material complementar": "Material complementar: Curso Intensivo de Python - 3ª Edição: Uma Introdução Prática e Baseada em Projetos à Programação. (2023). (n.p.): Novatec Editora.",
+
+    "Problema com worked Example Correto": {
+        "Reflexivo": "Números pares são reconhecidos após analisar o resto da sua divisão pelo valor 2. Em caso de resto 0 o numeral é considerado par, caso contrário é impar",
+        "Níveis de dificuldade": "Fácil",
+        "Proposta de solução": {
+          "Etapas de Solução": "[PASSO 1] Receber a entrada do usuário [PASSO 2] Utilizar o operador % para dividir a entrada do usuário por 2 recuperando apenas o resto [PASSO 3] verificar com if se o resto é igual a zero, imprimindo a mensagem par, caso contrário impar",
+          "Teste": "Entrada: 1 2 3 4 Saída: impar par impar par",
+          "Código Correto": "num = int(input(\"entre com um valor\")) \n resto = num % 2 \n if resto == 0: \n\t print(\"par\") \n else: \n\t print (\"ímpar\") "
+        }
+      },
+
+    "Problema com worked Example Incorreto": {
+        "Reflexivo": "Números pares são reconhecidos após analisar o resto da sua divisão pelo valor 2. Em caso de resto 0 o numeral é considerado par, caso contrário é impar",
+        "Níveis de dificuldade": "Fácil",
+        "Solução Incorreta":  "num = int(input(\"entre com um valor\")) \n resto = num % 2 \n if resto != 0: \n\t print(\"par\") \n else: \n\t print (\"ímpar\")",
+          "Você consegue identificar o erro? Aponte a linha em que ocorre.": "O código não funciona como esperado, pois o resultado está sendo comparado com diferente(!=) de zero",
+          "Proposta de solução": "[PASSO 1] Receber a entrada do usuário [PASSO 2] Utilizar o operador % para dividir a entrada do usuário por 2 recuperando apenas o resto [PASSO 3] verificar com if se o resto é igual a zero, imprimindo a mensagem par, caso contrário impar",
+          "Teste": "Entrada: 1 2 3 4 Saída: impar par impar par"
+    }
+}

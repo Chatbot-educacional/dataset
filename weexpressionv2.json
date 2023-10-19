@@ -1,0 +1,27 @@
+{
+    "Dados do Exemplo": {
+        "Título da disciplina": "Fundamentos de Programação",
+        "Tópico da disciplina": "Variáveis",
+        "Conhecimento prévio": "Lógica de Programação",
+        "Local onde foi retirado": "Material didático - Aula Professor Renato - IFMS",
+        "Descrição do problema": "Escreva um código que calcule a média de três notas e determine a situação do aluno.",
+        "Resultado": "Para as notas 7.5, 8.0 e 6.5, o resultado esperado é média 7.33 e situação 'Aprovado'.",
+        "Material complementar": "Material complementar: Programming 101: Master the Basics of Coding. (2023). John Programmer. Example Publications."
+    },
+    "Problema com worked Example Correto": {
+        "Reflexivo": "Variáveis são espaços na memória que armazenam dados. No exemplo, usaremos variáveis para armazenar notas, calcular média e determinar a situação do aluno.",
+        "Proposta de solução": {
+            "Etapas de Solução": "[PASSO 1] Receber as três notas do usuário. [PASSO 2] Calcular a média das notas e armazenar em uma variável 'media'. [PASSO 3] Usar uma estrutura condicional para determinar a situação do aluno com base na média. [PASSO 4] Imprimir a média e a situação.",
+            "Teste": "Notas: 7.5, 8.0, 6.5; Saída: Média: 7.33, Situação: Aprovado"
+        },
+        "Solução Correta": "\nnum = int(input(\"entre com um valor\"))\n resto = num % 2\n if resto == 0:\n\t print(\"par\") \n else:\n\t print (\"ímpar\")"
+    },
+        "Problema com worked Example Incorreto": {
+            "Reflexivo": "Variáveis são espaços na memória que armazenam dados. No exemplo, usaremos variáveis para armazenar notas, calcular média e determinar a situação do aluno.",
+            "Solução Incorreta":  "\nnota1 = float(input(\"Digite a primeira nota: \")) \n nota2 = float(input(\"Digite a segunda nota: \"))\n media = nota1 + nota2 / 2\n print(\"Média:\", media)",
+            "Teste": "Notas: 7.5, 8.0, 6.5; Saída: Média: 10.25, Situação: Aprovado",
+            "Você consegue identificar o erro?": "[Op1] [Op2] [Op3] [Op4]",
+            "resp": "[op2]",
+            "Resposta" : "O erro está na linha 'media = nota1 + nota2 / 2', que deve ser 'media = (nota1 + nota2) / 2' para calcular a média corretamente."
+    }
+}

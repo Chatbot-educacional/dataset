@@ -1,0 +1,28 @@
+{
+    "Título da disciplina": "[Inserir título da disciplina]",
+    "Tópico da disciplina": "[Inserir tópico da disciplina]",
+    "Conhecimento prévio": "[Inserir conhecimentos prévios necessários para a compreensão da atividade]",
+    "Local onde foi retirado": "[Inserir de onde o material para o worked example foi retirado]",
+    "Descrição do problema": "[Inserir descrição da atividade a ser realizada, incluindo o problema a ser resolvido]",
+    "Resultado": "[Inserir resultado para o problema abordado]",
+    "Material complementar": "[Inserir material de apoio para resolução do problema]",
+
+    "Problema com worked Example Correto": {
+        "Reflexivo": "[Inserir texto explicativo sobre o problema com worked example, o texto deve ajudar o aluno a refletir sobre o problema]",
+        "Proposta de solução": {
+            "Etapas de Solução": "[Inserir passo-a-passo para conclusão do exercício]",
+            "Teste": "[Inserir um teste para o exercício e verificar se o resultado obtido é o mesmo que o esperado]"
+        },
+        "Solução Correta": "[Proposta de solução de código]"
+    },
+
+    "Problema com worked Example Incorreto": {
+        "Reflexivo": "[Inserir texto explicativo sobre o problema com worked example, o texto deve ajudar o aluno a refletir sobre o problema]",
+        "Solução Incorreta":  "[Proposta de solução incorreta de código]",
+        "Teste": "[Inserir um teste para o exercício e verificar se o resultado obtido é o mesmo que o esperado]",
+        "Você consegue identificar o erro?": "[Indicação de 4 opções]",
+        "Resposta" : "[Inserir uma explicação sobre porque o erro ocorre e em que parte do código/passo-a-passo está]",
+        "Proposta de solução correta": "[PASSO 1] Receber as três notas do usuário. [PASSO 2] Calcular a média das notas e armazenar em uma variável 'media'. [PASSO 3] Usar uma estrutura condicional para determinar a situação do aluno com base na média. [PASSO 4] Imprimir a média e a situação."
+    }
+}
+
